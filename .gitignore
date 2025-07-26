@@ -20,7 +20,6 @@ build/
 **/.env.*
 # But keep example files
 !.env.example
-!**/.env.example
 
 # Debug
 npm-debug.log*
