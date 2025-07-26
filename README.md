@@ -10,18 +10,16 @@ This project demonstrates a full-stack chat application using Mastra for the bac
 ## Setup
 
 1. **Configure Environment Variables**
-   
+
    Copy the example environment file and add your OpenAI API key:
    ```bash
    cp backend/.env.example backend/.env
    ```
-   
+
    Then edit `backend/.env` and replace the placeholder with your actual OpenAI API key:
    ```
    OPENAI_API_KEY=sk-proj-YOUR_ACTUAL_API_KEY_HERE
    ```
-   
-   Get your API key from: https://platform.openai.com/api-keys
 
 2. **Install Dependencies**
 
@@ -33,18 +31,18 @@ This project demonstrates a full-stack chat application using Mastra for the bac
 ## Running the Application
 
 1. **Start Both Backend and Frontend**
-   
+
    From the root directory:
    ```bash
    npm run dev
    ```
-   
+
    This will start:
    - Backend on http://localhost:4111
    - Frontend on http://localhost:3000
 
 2. **Access the Application**
-   
+
    Open your browser and navigate to http://localhost:3000
 
 ## Available Scripts
@@ -76,14 +74,11 @@ mastra-assistant-ui-template/
 
 ## Features
 
-- Weather agent with tool capabilities
-- MCP (Model Context Protocol) client integration
-- Real-time streaming chat interface
-- Modern UI with sidebar navigation
+- Mastra backend with tool using Weather agent
+- Assistant-UI frontend with streaming chat
 
 ## Next Steps
 
 - Add authentication
-- Implement additional agents and tools
-- Explore Mastra's threads API for conversation persistence
+- Implement additional MCP or additional tools
 - Customize the UI theme and branding
